@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandond's Website</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Brandon's Personal Website</h1>
+    </header>
+
+    <!-- Article about you -->
+    <article>
+        <h2>About Me</h2>
+        <p>I am a student at Algonquin College, currently studying Interactive Media Design. I have a passion for design, technology, and creativity, which drives me to excel in my projects.</p>
+        <p>Outside of academics, I enjoy working on personal design projects, watching films and various other medias to inspire my creativity, and exploring new ways to use technology for artistic expression. 
+        My interest in technology began at a young age, as I was always fascinated about computers and their intricacies. I also have a deep interest in coding and web development. As someone who likes to immerse themselves in learning new skills, 
+        I find web design to be a perfect blend of creativity and logic. My goal is to continually improve and eventually work on larger tech projects in the future.</p>
+    </article>
+
+    <!-- Motivational Quote -->
+    <blockquote>
+        <p>"Success is not final, failure is not fatal: It is the courage to continue that counts." <sup>1</sup></p>
+        <cite>– Winston Churchill</cite>
+    </blockquote>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Brandon Bowen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
