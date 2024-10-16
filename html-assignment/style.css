@@ -1,0 +1,54 @@
+/* Set body font and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Style for the header and footer */
+header, footer {
+    background-color: #333; /* dark gray */
+    color: white;
+    padding: 10px;
+}
+
+/* Main heading (site title) color */
+.site-title {
+    color: #3498db;
+}
+
+/* Image box-shadow */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+/* List style for hobbies (square bullets) */
+ul {
+    list-style-type: square;
+}
+
+/* Alternate background for odd list items */
+ul li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+/* Remove bullets from navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Navigation link styles */
+nav a {
+    text-decoration: none;
+    background-color: #3498db;
+    border: 1px solid #2980b9;
+    padding: 10px;
+    display: inline-block;
+    color: white; /* Add white text for better contrast */
+}
+
+/* Change background color on hover */
+nav a:hover {
+    background-color: #2980b9;
+}
+
