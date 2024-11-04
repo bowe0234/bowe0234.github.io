@@ -139,6 +139,17 @@ nav ul li a {
     width: 100%;
 }
 
+/* Radio Button Styling */
+.contact input[type="radio"] {
+    margin-right: 10px; /* Space between radio and label */
+}
+
+.contact .radio-group {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; /* Space around radio group */
+}
+
 /* Focus Styles for Inputs */
 .contact input:focus,
 .contact textarea:focus {
