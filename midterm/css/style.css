@@ -23,7 +23,6 @@ header {
     position: relative;
     text-align: center;
     background-color: #d4e9e7;
-    padding: 100px 0; /* padding for vertical spacing */
 }
 
 header img {
@@ -32,17 +31,18 @@ header img {
 }
 
 header h1 {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 4.0em;
     color: white;
     font-weight: lighter;
-    margin: 0; 
-    position: relative; 
-    z-index: 1; 
 }
 
 /* Navigation Styling */
 nav {
-    padding: 10px 50px;
+    padding: 10px 110px;
 }
 
 nav ul {
@@ -137,17 +137,6 @@ nav ul li a {
     border: 1px solid #d4e9e7;
     border-radius: 5px;
     width: 100%;
-}
-
-/* Radio Button Styling */
-.contact input[type="radio"] {
-    margin-right: 10px; /* Space between radio and label */
-}
-
-.contact .radio-group {
-    display: flex;
-    align-items: center;
-    margin: 10px 0; /* Space around radio group */
 }
 
 /* Focus Styles for Inputs */
